@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Details = ({details,username}) =>{
     return (<div className="results">
         {/* navigation link */}
-        <Link to='/home'>
+        <Link to='/'>
             <BackButton  username={username} />
         </Link>
         {/* map ithe details state for get data */}
